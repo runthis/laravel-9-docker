@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('app-title', 'Login')
 
@@ -6,7 +6,7 @@
 	<link href="{{ mix('css/login.css') }}" rel="stylesheet">
 @endpush
 
-@section('layout-content')
+@section('app-content')
 
     <main class="login-hero bg-primary vh-100">
         <div class="position-absolute top-50 start-50 translate-middle text-center">
