@@ -13,8 +13,8 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js').sass('resources/sass/app.scss', 'public/css').react();
 
-mix.sass('resources/sass/login.scss', 'public/css').sourceMaps().version();
-mix.sass('resources/sass/home.scss', 'public/css').sourceMaps().version();
+mix.sass('resources/sass/login.scss', 'public/css');
+mix.sass('resources/sass/home.scss', 'public/css');
 
 if (mix.inProduction()) {
   mix.version().sourceMaps();
