@@ -9,22 +9,28 @@ This is a docker template for local development using [Laravel 9](https://larave
 
 ## Setup
 **1. Clone the repo**
+
 `git clone git@github.com:runthis/laravel-9-docker.git laravel-9-docker && cd laravel-9-docker`
 
 **2. Build the container**
+
 `npm run container:build`
 
 ## Access
 
 **Open the browser and see "hello world"**
+
 `http://localhost:3005/`
 
 **Use PHPMyAdmin if you want**
+
 `http://localhost:3010/`
 
 
 ## Useful commands
+
 This is not an exhaustive list. Use `npm run` to see a list of all commands.
+
 | Command | Description |
 |--|--|
 | `npm run composer` | Run composer commands |
@@ -39,6 +45,7 @@ This is not an exhaustive list. Use `npm run` to see a list of all commands.
 | `npm run phpcs` | Run phpcs tests |
 
 *Additionally commands can be run using `docker-compose exec` for example
+
  `docker-compose exec laravel php -i` will show PHP info.*
 
 ## Future updates
