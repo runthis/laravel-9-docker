@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+		"bmewburn.vscode-intelephense-client",
+		"dbaeumer.vscode-eslint",
+		"editorconfig.editorconfig",
+		"github.vscode-pull-request-github",
+		"neilbrayfield.php-docblocker",
+		"stylelint.vscode-stylelint",
+		"wongjn.php-sniffer",
+		"georgykurian.laravel-ide-helper",
+		"ikappas.phpcs",
+		"onecentlin.laravel-blade",
+		"emeraldwalk.RunOnSave"
+	]
+  }

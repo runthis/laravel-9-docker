@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"label": "npm: artisan",
+			"command": "${config:intelephense.index.workspace}",
+            "runOptions": { "runOn": "folderOpen" }
+		}
+	]
+}

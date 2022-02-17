@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "php.validate.executablePath": "vendor/bin/phpcs",
+    "phpcs.executablePath": "vendor/bin/phpcs",
+    "php.executablePath": "php",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".php",
+                "isAsync": true,
+                "cmd": "php artisan translatable:export en,es,hu,dk,de,fr,it,nl,jp,pt,se"
+            },
+        ]
+    }
+}
