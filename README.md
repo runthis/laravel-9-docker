@@ -16,6 +16,20 @@ This is a docker template for local development using [Laravel 9](https://larave
 
 `npm run container:build`
 
+
+
+## Alternatively, setup for your own repo
+**1. Click "Use this template" in Git**
+
+**2. Build the container**
+
+Bring your code down locally from your own repo and then run:
+
+`npm run container:build`
+
+
+
+
 ## Access
 
 **Open the browser and see "hello world"**
