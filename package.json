@@ -67,7 +67,7 @@
         "eslint-plugin-jsx-a11y": "^6.5.1",
         "eslint-plugin-react": "^7.28.0",
         "eslint-plugin-react-hooks": "^4.3.0",
-        "postcss": "^8.1.14",
+        "postcss": "^8.4.31",
         "qunit": "^2.16.0",
         "resolve-url-loader": "^5.0.0",
         "sass": "~1.32.12",
